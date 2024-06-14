@@ -4,6 +4,8 @@ let statue = null
 
 console.log(typeof(statue))
 console.log(typeof undefined)
+
+
 /*
 Data Types
 number ==  =>2 to 53 

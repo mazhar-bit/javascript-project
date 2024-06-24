@@ -8,7 +8,7 @@ const arr2 = new Array(1,2,3,4);
 
 
 // Array method  +____++ THIS IS MORE IMPORTANT+++-----++++
-
+// PUSH, POP, UNSHIFT, SHIFT, JOIN
 
 const arr3=[1,2,3,4,5]
 
@@ -44,6 +44,7 @@ let splicearray = arraynew.splice(1,3)          // splice give the values which 
 console.log(splicearray);
 // console.log(`Real array after the splice ${arraynew} `);    // and return array without splice range number 
 console.log(arraynew);
+
 
 
 

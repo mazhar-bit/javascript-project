@@ -34,10 +34,16 @@ const newarr = arr3.join()           // join() help to bend the array and conver
 
 const arraynew = [0,1,2,3,4,5]
 
-let = slicearray = arraynew.slice(1,3)
-console.log(slicearray);
-console.log(`Real array value ${arraynew}`);
+let = slicearray = arraynew.slice(1,3)      // in slice(1,3) user give the range of the values in array start and end 
+console.log(slicearray);                    // value but end value will be exculde not added
+// console.log(`Real array value after slice ${arraynew}`);
+console.log(arraynew)
 
+let splicearray = arraynew.splice(1,3)          // splice give the values which user defiend the range splice(1,3)
+// console.log(`${splicearray}`);                  // the real array value after the splice exculed the splice range values 
+console.log(splicearray);
+// console.log(`Real array after the splice ${arraynew} `);    // and return array without splice range number 
+console.log(arraynew);
 
 
 

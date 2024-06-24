@@ -32,5 +32,12 @@ const newarr = arr3.join()           // join() help to bend the array and conver
 
 // ============== slice ==== splice ===================///
 
+const arraynew = [0,1,2,3,4,5]
+
+let = slicearray = arraynew.slice(1,3)
+console.log(slicearray);
+console.log(`Real array value ${arraynew}`);
+
+
 
 

@@ -79,3 +79,17 @@ console.log(all_hero);
 
 
 
+// ===================== Split===============================
+
+// Functionality: The split method is used on strings to split them into an array of substrings based on a specified separator.
+// Usage: split takes a string and divides it into an array of substrings wherever the specified delimiter occurs.
+
+
+let word = 'yes,im a bad'
+
+test = word.split(' ').reverse().join(' ')
+
+console.log(test);
+
+
+

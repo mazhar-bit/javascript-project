@@ -92,4 +92,29 @@ test = word.split(' ').reverse().join(' ')
 console.log(test);
 
 
+//=================== flat ==========
+// its help to complex array [2,3,4,1[2,3,5,3],[4,3,5,2,[3,4,2]]] return in one array form [3,1,5,1,4,5] 
+
+const ted = [4,5,2,5,[4,3,5,1,5],['yy','gt',3]]
+
+ let ted2 = ted.flat(Infinity)
+
+console.log(ted2);
+
+
+// ============== isArray=======from===========of====
+// isArray help to check is this value array or not 
+// (from) help string to make the array 
+// (of) help give new array from set of element
+
+console.log(Array.isArray('ted'));
+console.log(Array.from('ted'));
+
+let rose = 100
+let rose1 = 200
+let rose3 = 300
+
+console.log(Array.of(rose,rose1,rose3));
+
+
 

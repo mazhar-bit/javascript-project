@@ -35,3 +35,11 @@ function username(name){
 }
 
  console.log (username())
+
+
+ // Rest oprater /// --// its samiler to spread oprater it depend on your use only
+
+ const cart = (item1,item2,...item) =>{
+     return item
+ }
+ console.log (cart(100,23,45,67))

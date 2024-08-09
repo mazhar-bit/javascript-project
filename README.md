@@ -1,2 +1,2 @@
 # javascript-project
-Javascript Big Project
+Javascript Projects

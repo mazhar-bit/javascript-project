@@ -22,7 +22,7 @@ const arr = (num , num2)=>  num + num2
 
 // this is implicate arrow in this you don't need arrow function
 const result = (num1 , num2) => (
-  num1 + num2
+   num1 + num2
 
 )
 
